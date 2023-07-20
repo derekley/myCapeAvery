@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.AttractionsPage" Title="Attractions">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <ScrollView Margin="0" BackgroundColor="GhostWhite">
+                <StackLayout>
+                    <Label Text="Arts/Entertainment" FontSize="Subtitle" TextColor="Teal"/>
+                    
+                    <Label Text="Avery Cinemas - Two ways to enjoy your next family movie night. Avery Cinemas is a small 4-screen venue with an additional 4-screens around back for drive-in movies. Inclement weather? Come inside! Looking for a night under the stars? Head out back!"/>
+                    <Label Text="The Gallery - If something more cultural is your thing, come visit our gallery filled with the works of local artists and world-renowned alike. On Tuesday nights, we have a 21+ 'Tipsy Painter' class. On Thursdays, we have a family art day which has crafts for all ages! We also have many works available for sale at reasonable prices!"/>
+                    <Label Text="Family Funhouse - This place has everything, and we mean it! Arcade, indoor/outdoor mini-golf, laser tag, bowling alley, go-karts, bumper boats, a massive indoor play gym, small outdoor rides for the younger patrons, and our ALL-NEW Escape Room!"/>
+                    <Label Text="Avery Park - Large, nationally awarded amusement park only 20 minutes from downtown Cape Avery. Complete with 5 wooden coasters, 3 steel coasters, an indoor VR experience like no other, and the record-breaking SkyShredder; the world's tallest sky swing!"/>
+                    
+                    <Label Text="Dining" FontSize="Subtitle" TextColor="Teal"/>
+                    
+                    <Label Text="Maid of the Sea - Ocean-front views, romantic atmosphere, fresh selections daily, world-renowned Chef Jacques Stirling serving up 5-star dishes; what more could you ask for?!"/>
+                    <Label Text="The Shack - Wide assortment of cuisine to suite the whole family. This is a long-time favorite of the locals. If you can finish the famous 'Catch of the Day', you'll have your name on the 'Wall of Champions' and be rewarded with a t-shirt and bragging rights!"/>
+                    <Label Text="Cafe on Main - Small coffee shop with indoor and outdoor seating right along Main Street, serving up light lunches. The baked goods here have even appeared on television! Stop in for a quick pick-me-up and a treat!"/>
+                    <Label Text="Dawes - Family-run since 1954, this local favorite sits on the boardwalk and serves up fries, sandwiches, crabs, lobsters, you name it!"/>
+                    <Label Text="Avery Brewhouse - As the name suggests, Avery Brewhouse is a micro-brewery serving classic pub-style dishes with a warm, inviting, socialable atmosphere to boot!"/>
+                    
+                    <Label Text="Lodging" FontSize="Subtitle" TextColor="Teal"/>
+                    
+                    <Label Text="The Inn - Small bed and breakfast just off of Main Street. If you're looking for a cozy, romantic retreat, this is the place for you! The main living room has also been host to a number of weddings and gatherings!"/>
+                    <Label Text="The Great Wolf Lodge - Large family-friendly lodge with 4 floors, an indoor pool/sauna/hot tub, and ample parking with an adjacent parking garage for more."/>
+
+                    <Label Text="Sights" FontSize="Subtitle" TextColor="Teal"/>
+                    
+                    <Label Text="Avery Cave System - This ancient cave system is believed to be where native civilizations once lived based on the artifacts and drawings found within the system. It is very large and has chambers to walk through as well as some flooded chambers requiring a small boat to pass through."/>
+                    <Label Text="Avery Bluffs - We have about 20 miles of coastline featuring large bluffs that have once-in-a-lifetime views that gaze out far over the ocean. From this vantage point, you can overlook downtown Avery and peer out over the Avery Lighthouse further out to sea."/>
+                    <Label Text="Avery Lighthouse - The original lighthouse still stands having been renovated over the centuries due to damage taken by weathering, age, and storm surges. It was also the site of a large naval battle during the Revolutionary War-era and a cannonball from that time can still be seen lodged within the exterior of the lighthouse."/>
+                    <Label Text="Whale Watching - If you happen to be peering out over the ocean at sunrise or sunset, you just might see some of the mighty whales as they breech the surface. It is a sight unlike any other."/>
+                </StackLayout>
+            </ScrollView>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

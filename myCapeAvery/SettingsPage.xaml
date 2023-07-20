@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.SettingsPage" Title="Account Settings">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <StackLayout BackgroundColor="Navy" Margin="20,0">
+                <BoxView BackgroundColor="Teal" CornerRadius="10" HeightRequest="300"/>
+                <BoxView BackgroundColor="GhostWhite" CornerRadius="10" HeightRequest="286" Margin="6,-300,6,0"/>
+                <Label Text="Account Settings" FontSize="Title" Margin="15,-290,0,0" TextColor="Teal"/>
+                <StackLayout x:Name="staUser" IsVisible="False">
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="Username:" Margin="0,5,0,0" TextColor="Teal"/>
+                        <Label x:Name="lblUsername" Text="" Margin="0,5,0,0" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="User Type:" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblUserType" Text="" Margin="0" TextColor="Black"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="You have created" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblPostData" Text="100" Margin="0" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="posts." Margin="0" TextColor="Teal"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="Your posts have been LIKED" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblLikeData" Text="100" Margin="0" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="times." Margin="0" TextColor="Teal"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="Your posts have been DISLIKED" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblDislikeData" Text="100" Margin="0" TextColor="Black" FontAttributes="Bold"/>
+                        <Label Text="times." Margin="0" TextColor="Teal"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0" HorizontalOptions="Center">
+                        <Button x:Name="btnDeactUser" Text="Deactivate Account" Margin="0" CornerRadius="10" FontAttributes="Bold" BackgroundColor="Red" TextColor="Black" Clicked="onDeactivate"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout x:Name="staAdmin" IsVisible="False">
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="Total Users:" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblUserData" Text="100" Margin="0" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,0">
+                        <Label Text="Total Ad Revenue:" Margin="0" TextColor="Teal"/>
+                        <Label x:Name="lblAdData" Text="100" Margin="0" TextColor="Black" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="0">
+                        <SearchBar x:Name="srcUsers" Placeholder="Search for User..." SearchButtonPressed="onSearch" TextColor="Black" PlaceholderColor="Black" CancelButtonColor="Red"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="15,10,15,0" HorizontalOptions="Center">
+                        <Button x:Name="btnDeactAdmin" Text="Deactivate" Margin="0" CornerRadius="10" FontAttributes="Bold" BackgroundColor="Red" TextColor="Black" Clicked="onDeactivate" WidthRequest="110"/>
+                        <Button x:Name="btnPromote" Text="Promote" Margin="0" CornerRadius="10" FontAttributes="Bold" BackgroundColor="Green" TextColor="Black" Clicked="onPromote" WidthRequest="110"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,0,15,0">
+                    <Label Text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -" Margin="0" TextColor="Teal"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,-5,15,0">
+                    <Label Text="Version:" Margin="0" TextColor="Teal"/>
+                    <Label Text="1.0.0" Margin="0" TextColor="Black"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,-5,15,0">
+                    <Label Text="© Copyright 2020." Margin="0" TextColor="Teal"/>
+                    <Label Text="Developed by Derek Ley." Margin="0" TextColor="Black"/>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

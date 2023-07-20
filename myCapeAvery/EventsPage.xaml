@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.EventsPage" Title="Upcoming Events">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <ScrollView Margin="0" BackgroundColor="GhostWhite">
+                <StackLayout>
+                    <Label Text="Summer Festival - July 12-18" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Join us in the Community Square. There will be fun games, rides, food, live music, and much more! View the 'Catch of the Day' from all of our local fisheries. Don't miss your photo opp with town mascot, Avery the Lobster!"/>
+                    <Label Text="Battle of the Bands! - July 15" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Join us in the Community Park. This is where all of Cape Avery's local music talents come to battle it out on Center Stage. The community judges will be there rockin' out; will you?!"/>
+                    <Label Text="Avery Speedway - July 25" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="This annual event (weather permitting) puts all speed-junkies, gear-heads, and on-lookers alike against each other! This is an ocean event where the fastest boat wins bragging rights and the Avery Cup!"/>
+                    <Label Text="Spooks and Scares - October 31" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Bring out your scariest decorations and costumes! There will be judges for the scariest house and costume(s). The whole Community goes all-out on this event each year and, just before judging results are announced, there is a Community Trick-or-Treat in Community Square."/>
+                    <Label Text="Fall Festival - November 15-21" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Join us in the Community Square. There will be food, games, handmade items for sale, and much more! Let's celebrate the changing seasons and our Community as a whole!"/>
+                    <Label Text="Winter Festival - December 13-19" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Brrr! Tis that time of year once more. Join us in the Community Park where there will be ice-skating, hot food and beverages, games, ice-carving, and much more!"/>
+                    <Label Text="Polar Bear Plunge - December 31" FontSize="Subtitle" TextColor="Teal"/>
+                    <Label Text="Are you brave enough to take a leap into the frigid ocean waters in the name of charity? Don't worry, there will be paramedics, hot chocolate, warming tents, and much more! All proceeds will be donated to the Cape Avery Food4Needy Program which helps provide food and shelter for those in the Community who need a helping hand."/>
+                </StackLayout>
+            </ScrollView>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,51 @@
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.deps.json
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.dll
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.csprojAssemblyReference.cache
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.AssemblyInfoInputs.cache
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.AssemblyInfo.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\ref\myCapeAvery.dll
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.pdb
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.dll
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ref\myCapeAvery.dll
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.pdb
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ForgotPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AttractionsPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ContactPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\EventsPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\WeatherPage.xaml.g.cs
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.csproj.CoreCompileInputs.cache
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\panic\source\repos\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AdPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.deps.json
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.dll
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\ref\myCapeAvery.dll
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\bin\Debug\netstandard2.0\myCapeAvery.pdb
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.csproj.AssemblyReference.cache
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AdPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\AttractionsPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ContactPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\EventsPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ForgotPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\NewsPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\WeatherPage.xaml.g.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.AssemblyInfoInputs.cache
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.AssemblyInfo.cs
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.csproj.CoreCompileInputs.cache
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.dll
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\ref\myCapeAvery.dll
+C:\Users\panic\Desktop\Derek Ley C868\Derek Ley C868\myCapeAvery\myCapeAvery\myCapeAvery\obj\Debug\netstandard2.0\myCapeAvery.pdb

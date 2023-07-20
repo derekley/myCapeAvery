@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.HomePage" Title="Home">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <StackLayout BackgroundColor="Navy" Margin="20,0">
+                <BoxView BackgroundColor="Teal" CornerRadius="10" HeightRequest="300"/>
+                <BoxView BackgroundColor="GhostWhite" CornerRadius="10" HeightRequest="286" Margin="6,-300,6,0"/>
+                <!-- TOP ROW -->
+                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Margin="0,-280,0,0" HorizontalOptions="Center">
+                    <StackLayout>
+                        <ImageButton Source="Sights" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onSights"/>
+                        <Label Text="Attractions" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Margin="0">
+                        <ImageButton Source="Calendar" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onEvents"/>
+                        <Label Text="Events" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <ImageButton Source="Sun" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onWeather"/>
+                        <Label Text="Weather" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+                <!-- MIDDLE ROW -->
+                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Margin="0" HorizontalOptions="Center">
+                    <StackLayout>
+                        <ImageButton Source="Newsfeed" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onFeed"/>
+                        <Label Text="Newsfeed" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Margin="0">
+                        <ImageButton Source="Call" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onContact"/>
+                        <Label Text="Contact" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout>
+                        <ImageButton Source="Book" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onAbout"/>
+                        <Label Text="History" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+                <!-- BOTTOM ROW -->
+                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Margin="0" HorizontalOptions="Center">
+                    <StackLayout>
+                        <ImageButton x:Name="btnSettings" Source="Settings" Margin="0" WidthRequest="80" Padding="15,5,15,15" BackgroundColor="Teal" Clicked="onSettings"/>
+                        <Label Text="Settings" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout Margin="0">
+                        <Button x:Name="btnAds" Margin="0" WidthRequest="166" HeightRequest="79" BackgroundColor="SlateGray" Text="" Clicked="onAd"/>
+                        <Label x:Name="lblInfo" Text="Advertisement" TextColor="Black" FontAttributes="Bold" Margin="0,-25,0,0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

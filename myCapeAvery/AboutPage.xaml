@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.AboutPage" Title="About Cape Avery">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <StackLayout BackgroundColor="Navy" Margin="20,0">
+                <BoxView BackgroundColor="Teal" CornerRadius="10" HeightRequest="300"/>
+                <BoxView BackgroundColor="GhostWhite" CornerRadius="10" HeightRequest="286" Margin="6,-300,6,0"/>
+                <Label Text="About Cape Avery" FontSize="Title" Margin="15,-290,0,0" TextColor="Teal"/>
+                <Label Text="Established in 1735, Cape Avery was founded by Jonathan MacLimar as a small harbor with a lighthouse to guide passing ships. We are a small, cozy, all-American community along the coastal shores of the Northeastern United States. We have a thriving fishing economy, miles of picturesque ocean views, a small population of 1,276 loyal residents, and a market along Main Street that must be seen to believe." Margin="15,0,10,0"/>
+                <Label Text="We have a bustling tourist market with year-round attractions sure to please the whole family. We have won awards for the 'Best Place to Retire', 'Safest Community in America', and, most recently, the 'Best Place to Visit in 2020'." Margin="15,0,10,0"/>
+            </StackLayout>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

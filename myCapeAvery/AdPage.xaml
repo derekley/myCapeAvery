@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.AdPage" Title="Post an Advertisement" >
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <StackLayout BackgroundColor="Navy" Margin="20,0">
+                <BoxView BackgroundColor="Teal" CornerRadius="10" HeightRequest="300"/>
+                <BoxView BackgroundColor="GhostWhite" CornerRadius="10" HeightRequest="286" Margin="6,-300,6,0"/>
+                <Label x:Name="lblAdBanner" Text="Advertisement" FontSize="Title" Margin="15,-290,0,0" TextColor="Teal"/>
+                <StackLayout Orientation="Horizontal" Margin="15,0">
+                    <Entry x:Name="txtBody" Placeholder="Advertisement Message" BackgroundColor="GhostWhite" FontAttributes="Bold" PlaceholderColor="LightGray" TextColor="Gray" Margin="0" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" MaxLength="50" WidthRequest="315"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,0">
+                    <Label Text="End Date:" Margin="0,15,0,0" TextColor="Teal"/>
+                    <DatePicker x:Name="datAd" WidthRequest="248" DateSelected="onDate"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,0">
+                    <Label Text="Run Cost:" Margin="0,10,0,0" TextColor="Teal"/>
+                    <Label x:Name="lblInfo" Text="" Margin="0,10,0,0" TextColor="Black" FontAttributes="Bold"/>
+                    <Label x:Name="lblCost" Text="" Margin="0,10,0,0" TextColor="Red" FontAttributes="Bold"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="15,20,15,0" HorizontalOptions="Center">
+                    <Button x:Name="btnPost" Text="Post Advertisement" Margin="0" CornerRadius="10" FontAttributes="Bold" BackgroundColor="Teal" TextColor="Black" Clicked="onPost"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0" HorizontalOptions="Center">
+                    <Label x:Name="lblPay" Text="Payment Processing..." Margin="0" TextColor="Red" FontAttributes="Bold" IsVisible="False"/>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

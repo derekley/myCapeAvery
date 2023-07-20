@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.ForgotPage" Title="Forgot Password">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- PASSWORD RECOVERY AREA -->
+            <!-- USERNAME -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Padding="20,0">
+                <BoxView CornerRadius="10,0,10,0" BackgroundColor="Teal" Margin="0" WidthRequest="50" HeightRequest="40"/>
+                <Image Source="User" BackgroundColor="Transparent" WidthRequest="30" Margin="-45,10,0,0" VerticalOptions="Start" HorizontalOptions="Start" />
+                <Entry x:Name="txtUsername" Placeholder="Username" BackgroundColor="GhostWhite" FontAttributes="Bold" PlaceholderColor="LightGray" TextColor="Gray" Margin="7,0,-6,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HeightRequest="50" MaxLength="15"/>
+                <BoxView CornerRadius="0,10,0,10" BackgroundColor="GhostWhite" Margin="0" WidthRequest="10" HeightRequest="50"/>
+            </StackLayout>
+            <!-- SECURITY -->
+            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Padding="20,0">
+                <BoxView CornerRadius="10,0,10,0" BackgroundColor="Teal" Margin="0" WidthRequest="50" HeightRequest="40"/>
+                <Image Source="Shield" BackgroundColor="Transparent" WidthRequest="30" Margin="-45,0,0,0"/>
+                <Entry x:Name="txtSecurity" Placeholder="Mother's Maiden Name" BackgroundColor="GhostWhite" FontAttributes="Bold" PlaceholderColor="LightGray" TextColor="Gray" Margin="7,0,-6,0" HorizontalOptions="FillAndExpand" VerticalOptions="Start" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" HeightRequest="50" MaxLength="15"/>
+                <BoxView CornerRadius="0,10,0,10" BackgroundColor="GhostWhite" Margin="0" WidthRequest="10" HeightRequest="50"/>
+            </StackLayout>
+            <!-- SUBMIT -->
+            <Button x:Name="btnRecover" Text="Recover Password" Margin="20,20,20,0" CornerRadius="10" FontAttributes="Bold" BackgroundColor="Teal" Clicked="onRecover"/>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

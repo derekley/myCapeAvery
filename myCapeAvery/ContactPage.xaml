@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="myCapeAvery.ContactPage" Title="Contact the Mayor">
+    <ContentPage.Content>
+        <StackLayout Margin="0" BackgroundColor="Navy">
+
+            <!-- TOP IMAGE -->
+            <Image Source="DeerIsle"/>
+            <BoxView BackgroundColor="Navy" Margin="0,-80" HeightRequest="100"/>
+
+            <!-- WELCOME BANNER -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,-20,0,0">
+                <Label Text="my" FontAttributes="Italic,Bold" FontSize="Large" TextColor="Teal" Margin="0" VerticalTextAlignment="End"/>
+                <Label Text="Cape Avery" FontSize="Title" FontAttributes="Italic,Bold" TextColor="GhostWhite" Margin="-6,0,0,0" VerticalTextAlignment="End"/>
+            </StackLayout>
+
+            <!-- BODY AREA -->
+            <StackLayout BackgroundColor="Navy" Margin="20,0">
+                <BoxView BackgroundColor="Teal" CornerRadius="10" HeightRequest="300"/>
+                <BoxView BackgroundColor="GhostWhite" CornerRadius="10" HeightRequest="286" Margin="6,-300,6,0"/>
+                <Label Text="Contact the Mayor" FontSize="Title" Margin="15,-290,0,0" TextColor="Teal"/>
+                <!-- IMAGE / BIO -->
+                <StackLayout BackgroundColor="Transparent" Orientation="Horizontal">
+                    <Image Source="Mayor" WidthRequest="100" HeightRequest="100" Margin="20,0,0,0"/>
+                    <StackLayout BackgroundColor="Transparent">
+                        <Label Text="Mayor Derek Ley" FontSize="Subtitle" FontAttributes="Bold"/>
+                        <Label Text="''Come and see what Cape Avery has to offer. If you love it, which I personally guarantee that you will, apply for residency and make Cape Avery your new home!''" Margin="0,0,5,10"/>
+                    </StackLayout>
+                </StackLayout>
+                <!-- CONTACT INFO -->
+                <StackLayout HorizontalOptions="Center">
+                    <StackLayout Orientation="Horizontal" Margin="0,-20">
+                        <Image Source="Link" WidthRequest="30" HeightRequest="30"/>
+                        <Button Text="Visit my Website" BackgroundColor="Transparent" TextColor="Teal" FontAttributes="Bold" Clicked="onWeb"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,-20">
+                        <Image Source="Message" WidthRequest="30" HeightRequest="30"/>
+                        <Button Text="Send me a Text" BackgroundColor="Transparent" TextColor="Teal" FontAttributes="Bold" Clicked="onSMS"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Call" WidthRequest="30" HeightRequest="30"/>
+                        <Button Text="Call Me" BackgroundColor="Transparent" TextColor="Teal" FontAttributes="Bold" Margin="-3,0,0,0" Clicked="onCall"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- FOOTER -->
+            <StackLayout VerticalOptions="EndAndExpand">
+                <BoxView BackgroundColor="Teal" Margin="0" HeightRequest="20" VerticalOptions="EndAndExpand"/>
+                <Label Text="© Copyright 2020. Cape Avery Tourism Bureau. All Rights Reserved." Margin="0,-25,0,3" FontSize="Micro" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
